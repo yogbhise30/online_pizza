@@ -1,0 +1,30 @@
+[
+	{
+		"id":	"1",
+		"image": "images/pizza1.jpg",
+		"title": "Bulgogi and Kimchi Pizza",
+		"ingredient": "Pizza sauce, mozzarella cheese, spinach, kimchi, bulgogi",
+		"price": "49"
+	},	
+	{
+		"id":	"2",
+		"image": "images/pizza2.jpg",
+		"title": "Chimichurri Chorizo Pizza",
+		"ingredient": "Chorizo sausages, cream cheese, pizza sauce, Chimichurri sauce, mushrooms, black olives, fresh coriander",
+		"price": "69"
+	},
+	{
+		"id":	"3",
+		"image": "images/pizza5.png",
+		"title": "Peri Peri Chicken Pizza",
+		"ingredient": "Sliced chicken breast, pizza sauce, Mozzarella cheese, cherry tomatoes, baby spinach leaves, red onion, peri peri sauce",
+		"price": "89"
+	},
+	{
+		"id":	"4",
+		"image": "images/pizza6.jpg",
+		"title": "Pizza Hut's Original Pan Pizza",
+		"ingredient": "Pepperoni or ham or chopped vegetables or cooked diced sausage-meat or beef, mozzarella cheese, pizza sauce",
+		"price": "99"
+	}
+]

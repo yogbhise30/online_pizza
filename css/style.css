@@ -1,0 +1,99 @@
+body{0 auto; background-color:#f1f1f1;}
+.offer, .pizza-list {margin-top: 30px;}
+.pizza-list {padding-bottom: 30px;}
+.pizza-list ul{background-color:#fff;overflow:hidden;margin: 0;}
+.pizza-list ul li{background-color:#fff;padding:10px; position:relative;float:left; width:100%;border-bottom:1px solid #eee;border-right: 2px solid #fff; cursor:pointer;transition: all 0.5s ease;}
+.pizza-list img{float:left; width:70px; margin-right:15px;border-radius:3px;}
+.pizza-list h5{margin:0 0 10px;;color:#444; font-size:18px;}
+.pizza-list P{margin:0;padding-right: 85px;color: #8e969d;font-size: 14px;}
+.pizza-list span{font-size: 20px;position: absolute;right: 10px;top: 20px;background: #e9565b;color: #fff;padding:10px; border-radius: 50%;}
+.pizza-list ul li:hover {border-right: 2px solid #ee6e73;background-color:#ebebeb;transition: all 0.5s ease;}
+.category ul {background: #e9e9e9;margin: 15px 0;}
+.category ul strong {font-size: 15px;border-bottom: 1px solid #ccc;width: 100%;display: inline-block;padding-bottom: 5px;padding:5px;color: #fff;background: #b4282d;}
+.category ul li {padding: 5px;border-bottom: 1px solid #dddbdb; cursor:pointer;transition: all 0.3s ease;}
+.category .material-icons{float:right;color:#999;}
+.category ul li:hover, .category ul li:hover .material-icons{color:#ee6e73;transition: all 0.3s ease;}
+
+.footer{background-color:#444; text-align:center;position:fixed;bottom:0;width:100%;}
+.footer h6{margin:0; padding:5px 0; font-size:14px; color:#eee;}
+
+.ordersummary img{width:120px;}
+.ordersummary h5{font-size:24px;margin:}
+.ordersummary p{font-size:18px;padding: 0;margin: 5px 0;}
+.ordersummary span{position:static; background:transparent;color:#ee6e73; font-weight:600;padding:0px;font-size:20px;}
+.order-summary {margin-top: 30px;background: #555;padding: 10px;overflow:hidden;}
+.order-summary strong{font-size:18px;color:#fff;border-bottom:1px dashed #777;width:100%;display:inline-block; padding-bottom:10px;margin-bottom: 10px;}
+
+.order-summary ul{margin:0;}
+.order-summary ul li{font-size:16px;padding:3px 0;color:#eee;}
+.order-summary ul li span{float:right;}
+.order-summary ul .total{font-size: 20px;
+    background: #000;
+    margin: 20px -10px -10px;
+    padding:5px 10px;}
+.order-summary a {
+    float: left;
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h6 {
+  margin-top: 0;
+  color: #333;
+  text-align:center;
+  font-weight:600;
+}
+.popup .close {
+	position: absolute;
+    top: 0;
+    right: 20px;
+    transition: all 200ms;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
+}
+.popup .close:hover {
+  color: #ee6e73;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  text-align:center;
+  font-weight:600;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
